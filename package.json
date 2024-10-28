@@ -1,0 +1,21 @@
+{
+  "name": "backedlenguajeiv",
+  "version": "1.0.0",
+  "description": "BenchPart es una sitio web multiplataforma para ver, comparar y hacer analisis de automoviles.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": " nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
